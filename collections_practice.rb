@@ -72,10 +72,9 @@ def organize_campuses(hash)
     if new_hash[campus_location[:location]]
       new_hash[campus_location[:location]] << campus_name
 else 
-  new_hash << campus_name
-  #  location = 
+  new_hash[campus_location[:location]] = [] 
+  new_hash[campus_location[:location]] << campus_name
   
-  binding.pry
  end
    end
     
