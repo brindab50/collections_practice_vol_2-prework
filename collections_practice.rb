@@ -67,7 +67,7 @@ end
    
 def organize_campuses(hash)
   new_hash = {}
-  hash.each do |element, campuses|
+  hash.each do |campus_name, campus_location|
   
   binding.pry
    new_hash << campuses[:location]
