@@ -76,6 +76,7 @@ def organize_campuses(hash)
     return new_hash
 end 
   end 
+end
     
     
     
