@@ -66,10 +66,10 @@ end
   end 
    
 def organize_campuses(hash)
-  new_hash = []
+  new_hash = {}
   hash.each do |element, campuses|
   
-  # binding.pry
+  binding.pry
    new_hash << campuses[:location]
    end 
     
