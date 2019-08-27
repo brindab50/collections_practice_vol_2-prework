@@ -69,6 +69,7 @@ def organize_campuses(hash)
   new_hash = {}
 
   hash.each do |campus_name, campus_location|
+    if new_hash[]
   #  location = 
   
   binding.pry
