@@ -69,12 +69,15 @@ def organize_campuses(hash)
   new_hash = {}
 
   hash.each do |campus_name, campus_location|
-    if new_hash[]
+    if new_hash[campus_location[:location]]
+      new_hash[campus_location[:location]] << campus_name
+else 
+  new_hash << campus_name
   #  location = 
   
   binding.pry
-   new_hash << campuses[:location]
-   end 
+ end
+   end
     
     return new_hash
 end 
